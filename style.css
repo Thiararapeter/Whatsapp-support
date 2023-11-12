@@ -1,0 +1,27 @@
+/* Floating WhatsApp button styles */
+
+        /* Floating WhatsApp button styles */
+        .whatsapp-support {
+            position: fixed;
+            bottom: 20px; /* Adjust the distance from the bottom */
+            right: 20px; /* Adjust the distance from the right */
+            z-index: 1000;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .whatsapp-support button {
+            font-size: 24px;
+            padding: 10px;
+            background-color: #d325ad; /* WhatsApp green color */
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .whatsapp-support button i {
+            font-size: 24px; /* Adjust the size of the Font Awesome icon */
+            margin-right: 5px; /* Optional: Adjust the spacing between text and icon */
+        }
+   
